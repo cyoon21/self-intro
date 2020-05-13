@@ -1,0 +1,123 @@
+body{
+    font-family: 'Do Hyeon', sans-serif;
+    background-color:#1F2124;
+    color: whitesmoke
+}
+#title{
+    text-align: center;
+    color: rgb(248, 173, 69);
+    font-size: 40px;
+    text-shadow: 0 0 1px #F6B352, 0 0 5px #F6B352, 0 0 30px rgb(250, 165, 45), 0 0 80px rgb(252, 160, 31);
+}
+.content{
+    margin:120px 10%;
+    text-align: center;
+}
+img{
+    position: relative;
+    width:170px;
+    grid-column: 1;
+    border-radius: 100%;
+    left: -225%;
+    top: -53%;
+    z-index: 10;
+}
+.card{
+    position: relative;
+    display: grid;
+    grid-template-columns: 30px auto 30px;
+    background-color:#383A3F;
+    width: 40%;
+    margin-bottom: 5%;
+    border: 5px solid #F68657;
+    border-radius: 20px;
+    height: 200px;
+    -webkit-box-shadow: -5px 25px 50px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 25px 50px 1px rgba(0,0,0,0.75);
+    box-shadow: -5px 25px 50px 1px rgba(0,0,0,0.75);
+    transition: 0.2s;
+}
+.card:hover{
+    background-color: #1F2124;
+}
+.date{
+    position: relative;
+    grid-column: 2;
+    top: -120px;
+}
+.what{
+    position: relative;
+    background-color: rgb(253, 122, 66);
+    font-size: 50px;
+    top:-40px;
+    grid-column: 2;
+    border-radius: 15%;
+    text-align: center;
+    height: 65px;
+    box-shadow: 0px 5px 40px rgb(26, 21, 21);
+}
+.where{
+    position: relative;
+    grid-column: 2;
+    top:-110px;
+}
+.text{
+    position: relative;
+    grid-column: 2;
+    top: -90px;
+}
+.dot{
+    width: 20px;
+    height: 20px;
+    background-color: #F68657;
+    position: absolute;
+    right: -26.6%;
+    top: 40%;
+    border-radius: 100%;
+    z-index: 3;
+}
+.line{
+    position:absolute;
+    top:35%;
+    left: 50%;
+    margin-left: -2.5px;
+    width: 5px;
+    height: 190%;
+    background-color:#F68657;
+}
+.card:nth-child(even){
+    margin-left: 60%;
+}
+.card:nth-child(even) .dot{
+    left:-29%;
+}
+.card:nth-child(even) img{
+    right: -50%;
+}
+.buttons{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#tothetop{
+    position: fixed;
+    right:30px;
+    bottom:50px;
+}
+.homepage{
+    position: relative;
+    text-align: center;
+}
+
+@media(max-width:850px){
+    .dot, .line{
+        display: none;
+    }
+    .card{
+        width:80%;
+        margin: 15% 10%;
+    }
+    .card:nth-child(even){
+        margin-left: 10%;         
+    }
+}

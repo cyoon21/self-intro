@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Timeline</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="title">
+        <h1>My Life!</h1>
+    </div>
+    
+    <div class="buttons">
+        <button class="changebg" onclick="
+        document.querySelector('body').style.backgroundImage='url(puppy.jpg)';
+        document.querySelector('body').style.backgroundRepeat='no-repeat';
+        document.querySelector('body').style.backgroundSize='cover';">강아지</button>
+        <button class="changebg" onclick="
+        document.querySelector('body').style.backgroundImage='url(nyang.png)';
+        document.querySelector('body').style.backgroundRepeat='no-repeat';
+        document.querySelector('body').style.backgroundSize='cover';">고양이</button>
+    </div>
+    <div class="content">
+        <div class="card">
+            <img src="1.png">
+            <div class="what">탄생</div>
+            <div class="date">이천일년 이월 일일</div>
+            <div class="where">경기도 성남시 분당구에서 </div>
+            <div class="text">슬픈 빠른년생으로 출생하여 <br> 지금까지도 계속 같은 곳에서 살고 있다.</div>
+            <div class="dot"></div>
+        </div>
+        <div class="card">
+            <img src="2.png">
+            <div class="what">초등학교</div>
+            <div class="date">이천칠년 삼월 이일</div>
+            <div class="where">성남매송초등학교에</div>
+            <div class="text">입학하였지만 오학년 말 즈음 보평초등학교로 전학 갔다.</div>
+            <div class="dot"></div>
+        </div>
+        <div class="card">
+            <img src="3.png">
+            <div class="what">중학교</div>
+            <div class="date">이천십삼년 삼월 사일 </div>
+            <div class="where">보평중학교에</div>
+            <div class="text">입학하여 다사다난한 중학교 시절을 보냈다</div>
+            <div class="dot"></div>
+        </div>
+        <div class="card">
+            <img src="4.png">
+            <div class="what">고등학교</div>
+            <div class="date">이천십육년 삼월 이일</div>
+            <div class="where">분당대진고등학교에</div>
+            <div class="text">입학하였지만 집에서 멀어 매일 통학하기 힘들었다</div>
+            <div class="dot"></div>
+        </div>
+        <div class="card">
+            <img src="5.png">
+            <div class="what">대학교</div>
+            <div class="date">이천십구년 삼월 사일 </div>
+            <div class="where">성균관대학교에</div>
+            <div class="text">입학해서 행복하게 다니고 있다!</div>
+            <div class="dot"></div>
+        </div>
+        <div class="line"></div>
+        <div class="homepage">
+            <button onclick="location.href='cyintro_home.html'">Do you want to know more about me?</button>
+        </div>
+    
+    </div>
+    <a href="#title"button id="tothetop">▲</button>
+</body>
+</html>
