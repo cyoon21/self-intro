@@ -41,19 +41,26 @@ img{
     font-style: oblique;
     text-align: center;
     border-right: 1.5px solid #bb8f8f ;
-
 }
+
 .panel-footer{
     background: #bb8f8f;
     color: white;
+    border: 0px;
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
-.nav .active {
-    color: red;
-}
 h2{
     color: #bb8f8f;
+}
+.progress{
+    position: relative;
+    top: -21px;
+}
+#night_day{
+    position: relative;
+    top:-24px;
+    padding: 0px 50%;
 }
