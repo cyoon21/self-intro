@@ -64,3 +64,8 @@ h2{
     top:-24px;
     padding: 0px 50%;
 }
+.js-weather{
+    margin-top:10px;
+    margin-bottom: -10px;
+    margin-left:2px;
+}
